@@ -1,0 +1,2 @@
+# AsResMgr
+AsResMgr
