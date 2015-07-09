@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Lottery :
+		id          : 抽奖ID  
+		type		: 宝箱类型  可不配置 默认为0；   当抽奖有特殊需求时，可通过TYPE字段标识。
+	Lottery.element
+		proportion	: 概率. 配置范围 [0-千万级别]
+		type        : 奖励类型 1：金币 2：经验值 3：元宝 4：道具 5：装备 6：声望   //   暂时仅仅支持前 6种   后面会整个完善。 7：体力
+		content     : 奖励值 当奖励装备时，格式为：装备ID|装备品质ID|装备品质类别|装备等级
+		count       : 数量	
+-->
+<LotteryLibrary>
+	<Lottery id="1">
+		<element proportion="80" type="4" content="9109|10"/>
+		<element proportion="20" type="4" content="9110|5"/>
+	</Lottery>
+
+	<Lottery id="2">
+		<element proportion="10" type="4" content="9109|20"/>
+		<element proportion="80" type="4" content="9110|10"/>
+		<element proportion="10" type="4" content="9111|5"/>
+	</Lottery>
+	
+	<Lottery id="3">
+		<element proportion="40" type="4" content="9110|10"/>
+		<element proportion="25" type="4" content="9111|5"/>
+		<element proportion="30" type="4" content="9149|5"/>
+		<element proportion="5" type="4" content="9156|1"/>
+	</Lottery>
+	
+	<Lottery id="4">
+		<element proportion="10" type="4" content="9111|100"/>
+		<element proportion="15" type="4" content="9150|5"/>
+		<element proportion="10" type="4" content="9115|1"/>
+		<element proportion="50" type="4" content="9156|1"/>
+		<element proportion="15" type="4" content="9157|1"/>
+	</Lottery>
+	
+	<Lottery id="5">
+		<element proportion="40" type="4" content="9112|100"/>
+		<element proportion="30" type="4" content="9157|1"/>
+		<element proportion="20" type="4" content="9158|1"/>
+		<element proportion="10" type="4" content="9115|1"/>
+	</Lottery>
+	
+	<Lottery id="6">
+		<element proportion="30" type="4" content="9112|300"/>
+		<element proportion="10" type="4" content="9115|1"/>
+		<element proportion="50" type="4" content="9158|1"/>
+		<element proportion="10" type="4" content="9157|1"/>
+	</Lottery>
+
+</LotteryLibrary>

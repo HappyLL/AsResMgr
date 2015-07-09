@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<InvestmentPlans>
+	<!--
+Plans:
+	id 	  		: 投资计划id(目前支持32个)
+	cost_gold   : 投资所消耗的元宝数
+	award		: 每日的奖励
+		day			: 领奖天数
+		type		: 奖励类型(支持：1、金币；2、经验；4、道具；5、装备；6、声望；7、体力; 8、战功；11、战魂碎片；15、金券)
+-->
+	<Plans>
+		<plan id="1" cost_gold="288" task_id="0">
+			<award day="1" type="15" content="1500"/>
+			<award day="2" type="15" content="1000"/>
+			<award day="3" type="15" content="500"/>
+			<award day="4" type="15" content="500"/>
+			<award day="5" type="15" content="500"/>
+			<award day="6" type="15" content="500"/>
+			<award day="7" type="15" content="1000"/>
+			<award day="8" type="15" content="500"/>
+			<award day="9" type="15" content="500"/>
+			<award day="10" type="15" content="500"/>
+			<award day="11" type="15" content="1000"/>
+			<award day="12" type="15" content="500"/>
+			<award day="13" type="15" content="500"/>
+			<award day="14" type="15" content="500"/>
+			<award day="15" type="15" content="1000"/>
+		</plan>
+		<plan id="2" cost_gold="488" task_id="0">
+			<award day="1" type="6" content="10000"/>
+			<award day="2" type="6" content="5000"/>
+			<award day="3" type="6" content="3000"/>
+			<award day="4" type="6" content="3000"/>
+			<award day="5" type="6" content="3000"/>
+			<award day="6" type="6" content="3000"/>
+			<award day="7" type="6" content="5000"/>
+			<award day="8" type="6" content="3000"/>
+			<award day="9" type="6" content="3000"/>
+			<award day="10" type="6" content="3000"/>
+			<award day="11" type="6" content="5000"/>
+			<award day="12" type="6" content="3000"/>
+			<award day="13" type="6" content="3000"/>
+			<award day="14" type="6" content="3000"/>
+			<award day="15" type="6" content="5000"/>
+		</plan>
+		<plan id="3" cost_gold="688" task_id="0">
+			<award day="1" type="1" content="30000000"/>
+			<award day="2" type="1" content="10000000"/>
+			<award day="3" type="1" content="6000000"/>
+			<award day="4" type="1" content="6000000"/>
+			<award day="5" type="1" content="6000000"/>
+			<award day="6" type="1" content="6000000"/>
+			<award day="7" type="1" content="10000000"/>
+			<award day="8" type="1" content="6000000"/>
+			<award day="9" type="1" content="6000000"/>
+			<award day="10" type="1" content="6000000"/>
+			<award day="11" type="1" content="10000000"/>
+			<award day="12" type="1" content="6000000"/>
+			<award day="13" type="1" content="6000000"/>
+			<award day="14" type="1" content="6000000"/>
+			<award day="15" type="1" content="10000000"/>
+		</plan>
+		<plan id="4" cost_gold="888" task_id="0">
+			<award day="1" type="8" content="4000000"/>
+			<award day="2" type="8" content="2000000"/>
+			<award day="3" type="8" content="1000000"/>
+			<award day="4" type="8" content="1000000"/>
+			<award day="5" type="8" content="1000000"/>
+			<award day="6" type="8" content="1000000"/>
+			<award day="7" type="8" content="2000000"/>
+			<award day="8" type="8" content="1000000"/>
+			<award day="9" type="8" content="1000000"/>
+			<award day="10" type="8" content="1000000"/>
+			<award day="11" type="8" content="2000000"/>
+			<award day="12" type="8" content="1000000"/>
+			<award day="13" type="8" content="1000000"/>
+			<award day="14" type="8" content="1000000"/>
+			<award day="15" type="8" content="3000000"/>
+		</plan>
+		<plan id="5" cost_gold="1088" task_id="0">
+			<award day="1" type="2" content="5000000"/>
+			<award day="2" type="2" content="5000000"/>
+			<award day="3" type="2" content="6000000"/>
+			<award day="4" type="2" content="6000000"/>
+			<award day="5" type="2" content="7000000"/>
+			<award day="6" type="2" content="7000000"/>
+			<award day="7" type="2" content="8000000"/>
+			<award day="8" type="2" content="8000000"/>
+			<award day="9" type="2" content="10000000"/>
+			<award day="10" type="2" content="10000000"/>
+			<award day="11" type="2" content="12000000"/>
+			<award day="12" type="2" content="12000000"/>
+			<award day="13" type="2" content="14000000"/>
+			<award day="14" type="2" content="14000000"/>
+			<award day="15" type="2" content="16000000"/>
+		</plan>
+		<plan id="6" cost_gold="1288" task_id="98">
+			<award day="1" type="5" content="355|6|1"/>
+			<award day="2" type="5" content="354|5|1"/>
+			<award day="3" type="5" content="353|4|1"/>
+			<award day="4" type="5" content="353|4|1"/>
+			<award day="5" type="5" content="353|4|1"/>
+			<award day="6" type="5" content="353|4|1"/>
+			<award day="7" type="5" content="354|5|1"/>
+			<award day="8" type="5" content="353|4|1"/>
+			<award day="9" type="5" content="353|4|1"/>
+			<award day="10" type="5" content="353|4|1"/>
+			<award day="11" type="5" content="354|5|1"/>
+			<award day="12" type="5" content="353|4|1"/>
+			<award day="13" type="5" content="353|4|1"/>
+			<award day="14" type="5" content="353|4|1"/>
+			<award day="15" type="5" content="354|5|1"/>
+		</plan>
+		<plan id="7" cost_gold="1688" task_id="103">
+			<award day="1" type="4" content="9133|60"/>
+			<award day="2" type="4" content="9133|30"/>
+			<award day="3" type="4" content="9133|20"/>
+			<award day="4" type="4" content="9133|20"/>
+			<award day="5" type="4" content="9133|20"/>
+			<award day="6" type="4" content="9133|20"/>
+			<award day="7" type="4" content="9133|30"/>
+			<award day="8" type="4" content="9133|20"/>
+			<award day="9" type="4" content="9133|20"/>
+			<award day="10" type="4" content="9133|20"/>
+			<award day="11" type="4" content="9133|30"/>
+			<award day="12" type="4" content="9133|20"/>
+			<award day="13" type="4" content="9133|20"/>
+			<award day="14" type="4" content="9133|20"/>
+			<award day="15" type="4" content="9133|30"/>
+		</plan>
+	</Plans>
+</InvestmentPlans>

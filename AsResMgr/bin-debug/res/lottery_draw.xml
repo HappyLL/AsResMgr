@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 被2012 (jenny) 使用XMLSpy vjenny编辑的 (http://www.altova.com) by -->
+<!--
+  lucky_number      : 幸运抽奖数字
+  lucky_id          : 幸运抽奖ID
+  id                : 抽奖ID
+  cost_coin         : 消耗的金币
+  cost_gold_ingot   : 消耗的元宝
+  element           :
+	  proportion        : 比例，不再使用底数为10000的概率，而是按比例计算相应的概率
+    
+    type      : 礼品类型：1：金币；2：经验；3：元宝；4：道具 5：装备 6：声望；7：体力
+
+    content   : 礼包内容： 
+                    礼品类型 1：金币数量
+                    礼品类型 2：经验数量
+                    礼品类型 3：元宝数量
+                    礼品类型 4：道具ID|道具个数
+                    礼品类型 5：道具ID|品质类别|品质ID|道具等级
+                    礼品类型 6：声望数量
+                    礼品类型 7：体力数量
+                    
+    count     : 数量
+    
+-->
+<LotteryDraws>
+	<!--狂欢日-->
+	<LotteryDraw id="101" cost_coin="0" cost_gold_ingot="20" lucky_number="100000000" lucky_id="101">
+		<element proportion="90" type="4" content="7098" count="1"/>
+		<element proportion="3" type="4" content="7049" count="1"/>
+		<element proportion="1" type="4" content="7010" count="1"/>
+		<element proportion="300" type="8" content="500000" count="1"/>
+		<element proportion="0" type="4" content="7030" count="1"/>
+		<element proportion="0" type="4" content="7040" count="1"/>
+		<element proportion="0" type="4" content="7050" count="1"/>
+		<element proportion="0" type="4" content="7060" count="1"/>
+		<element proportion="0" type="4" content="7070" count="1"/>
+		<element proportion="0" type="4" content="7080" count="1"/>
+		<element proportion="0" type="4" content="7090" count="1"/>
+		<element proportion="0" type="4" content="7100" count="1"/>
+		<element proportion="0" type="4" content="7110" count="1"/>
+		<element proportion="0" type="4" content="7120" count="1"/>
+		<element proportion="0" type="4" content="7240" count="1"/>
+		<element proportion="0" type="4" content="7252" count="1"/>
+		<element proportion="0" type="4" content="7264" count="1"/>
+		<element proportion="0" type="4" content="7276" count="1"/>
+		<element proportion="1" type="4" content="7009" count="1"/>
+		<element proportion="1" type="4" content="7029" count="1"/>
+		<element proportion="1" type="4" content="7039" count="1"/>
+		<element proportion="1" type="4" content="7059" count="1"/>
+		<element proportion="1" type="4" content="7069" count="1"/>
+		<element proportion="1" type="4" content="7079" count="1"/>
+		<element proportion="1" type="4" content="7089" count="1"/>
+		<element proportion="1" type="4" content="7099" count="1"/>
+		<element proportion="1" type="4" content="7109" count="1"/>
+		<element proportion="1" type="4" content="7119" count="1"/>
+		<element proportion="1" type="4" content="7239" count="1"/>
+		<element proportion="1" type="4" content="7251" count="1"/>
+		<element proportion="1" type="4" content="7263" count="1"/>
+		<element proportion="1" type="4" content="7275" count="1"/>
+		<element proportion="600" type="7" content="150" count="1"/>
+		<element proportion="600" type="4" content="2001" count="100"/>
+		<element proportion="600" type="4" content="2002" count="100"/>
+		<element proportion="600" type="4" content="2003" count="100"/>
+		<element proportion="600" type="4" content="2004" count="100"/>
+		<element proportion="600" type="4" content="2005" count="100"/>
+		<element proportion="600" type="4" content="2006" count="100"/>
+		<element proportion="270" type="4" content="7087" count="1"/>
+		<element proportion="600" type="4" content="7026" count="1"/>
+		<element proportion="600" type="4" content="7036" count="1"/>
+		<element proportion="600" type="4" content="7046" count="1"/>
+		<element proportion="600" type="4" content="7056" count="1"/>
+		<element proportion="600" type="4" content="7066" count="1"/>
+		<element proportion="600" type="4" content="7076" count="1"/>
+		<element proportion="600" type="4" content="7086" count="1"/>
+		<element proportion="600" type="4" content="7096" count="1"/>
+		<element proportion="600" type="4" content="7106" count="1"/>
+		<element proportion="600" type="4" content="7116" count="1"/>
+		<element proportion="300" type="4" content="7236" count="1"/>
+		<element proportion="300" type="4" content="7248" count="1"/>
+		<element proportion="300" type="4" content="7260" count="1"/>
+		<element proportion="300" type="4" content="7272" count="1"/>
+		<element proportion="270" type="4" content="7007" count="1"/>
+		<element proportion="270" type="4" content="7027" count="1"/>
+		<element proportion="270" type="4" content="7037" count="1"/>
+		<element proportion="270" type="4" content="7047" count="1"/>
+		<element proportion="270" type="4" content="7057" count="1"/>
+		<element proportion="270" type="4" content="7067" count="1"/>
+		<element proportion="270" type="4" content="7077" count="1"/>
+		<element proportion="600" type="4" content="7006" count="1"/>
+		<element proportion="270" type="4" content="7097" count="1"/>
+		<element proportion="270" type="4" content="7107" count="1"/>
+		<element proportion="270" type="4" content="7117" count="1"/>
+		<element proportion="150" type="4" content="7237" count="1"/>
+		<element proportion="150" type="4" content="7249" count="1"/>
+		<element proportion="150" type="4" content="7261" count="1"/>
+		<element proportion="150" type="4" content="7273" count="1"/>
+		<element proportion="90" type="4" content="7008" count="1"/>
+		<element proportion="90" type="4" content="7028" count="1"/>
+		<element proportion="90" type="4" content="7038" count="1"/>
+		<element proportion="90" type="4" content="7048" count="1"/>
+		<element proportion="90" type="4" content="7058" count="1"/>
+		<element proportion="90" type="4" content="7068" count="1"/>
+		<element proportion="90" type="4" content="7078" count="1"/>
+		<element proportion="90" type="4" content="7088" count="1"/>
+		<element proportion="90" type="4" content="7108" count="1"/>
+		<element proportion="90" type="4" content="7118" count="1"/>
+		<element proportion="1" type="7" content="200" count="1"/>
+	</LotteryDraw>
+	<LotteryDraw id="1" cost_coin="0" cost_gold_ingot="20" lucky_number="8" lucky_id="101">
+		<element proportion="25" type="4" content="7005" count="1"/>
+		<element proportion="25" type="4" content="7025" count="1"/>
+		<element proportion="25" type="4" content="7035" count="1"/>
+		<element proportion="25" type="4" content="7045" count="1"/>
+		<element proportion="25" type="4" content="7055" count="1"/>
+		<element proportion="25" type="4" content="7065" count="1"/>
+		<element proportion="25" type="4" content="7075" count="1"/>
+		<element proportion="25" type="4" content="7085" count="1"/>
+		<element proportion="25" type="4" content="7095" count="1"/>
+		<element proportion="25" type="4" content="7105" count="1"/>
+		<element proportion="25" type="4" content="7115" count="1"/>
+		<element proportion="25" type="4" content="7235" count="1"/>
+		<element proportion="25" type="4" content="7247" count="1"/>
+		<element proportion="25" type="4" content="7259" count="1"/>
+		<element proportion="25" type="4" content="7271" count="1"/>
+		<element proportion="15" type="4" content="7004" count="1"/>
+		<element proportion="15" type="4" content="7024" count="1"/>
+		<element proportion="15" type="4" content="7034" count="1"/>
+		<element proportion="15" type="4" content="7044" count="1"/>
+		<element proportion="15" type="4" content="7054" count="1"/>
+		<element proportion="15" type="4" content="7064" count="1"/>
+		<element proportion="15" type="4" content="7074" count="1"/>
+		<element proportion="15" type="4" content="7084" count="1"/>
+		<element proportion="15" type="4" content="7094" count="1"/>
+		<element proportion="15" type="4" content="7104" count="1"/>
+		<element proportion="15" type="4" content="7114" count="1"/>
+		<element proportion="15" type="4" content="7234" count="1"/>
+		<element proportion="15" type="4" content="7246" count="1"/>
+		<element proportion="15" type="4" content="7258" count="1"/>
+		<element proportion="15" type="4" content="7270" count="1"/>
+		<element proportion="150" type="1" content="200000" count="1"/>
+		<element proportion="50" type="1" content="400000" count="1"/>
+		<element proportion="100" type="2" content="100000" count="1"/>
+		<element proportion="50" type="2" content="200000" count="1"/>
+		<element proportion="10" type="4" content="2002" count="30"/>
+		<element proportion="10" type="4" content="2001" count="30"/>
+		<element proportion="40" type="4" content="2003" count="30"/>
+		<element proportion="40" type="4" content="2004" count="30"/>
+		<element proportion="40" type="4" content="2005" count="30"/>
+		<element proportion="40" type="4" content="2006" count="30"/>
+	</LotteryDraw>
+	<!--
+  PropLotteryDraw : 道具抽奖 (龙宫寻宝)
+  id              : 抽奖ID
+  cost_coin       : 消耗的金币
+  cost_gold_ingot : 消耗的元宝
+  lucky_number    : 幸运抽奖数字
+  lucky_id        : 幸运抽奖ID
+  
+  Cost:
+    Prop    :
+      id    : 消耗的道具ID
+      count : 消耗的道具个数
+      price : 缺少一个道具需要的元宝
+    Obtain  :
+      element           :
+	    proportion        : 比例，不再使用底数为10000的概率，而是按比例计算相应的概率
+    
+      type      : 礼品类型：1：金币；2：经验；3：元宝；4：道具 5：装备 6：声望；7：体力
+
+      content   : 礼包内容： 
+                    礼品类型 1：金币数量
+                    礼品类型 2：经验数量
+                    礼品类型 3：元宝数量
+                    礼品类型 4：道具ID|道具个数
+                    礼品类型 5：道具ID|品质类别|品质ID|道具等级
+                    礼品类型 6：声望数量
+                    礼品类型 7：体力数量
+                    
+      count     : 数量
+      
+  -->
+	<activity_time begin_time="2015-04-13 00:00:00" end_time="2015-04-20 23:59:59" desc="10月14号到10月16号24点"/>
+	<PropLotteryDraw id="102" cost_coin="0" cost_gold_ingot="0" lucky_number="100000" lucky_id="102">
+		<Cost>
+			<Prop id="2101" count="100" price="2"/>
+		</Cost>
+		<Obtain>
+			<element proportion="600" type="4" content="2311" count="1"/>
+			<element proportion="300" type="4" content="2303" count="1"/>
+			<element proportion="50" type="5" content="354|5|1" count="1"/>
+			<element proportion="50" type="5" content="355|6|1" count="1"/>
+			<element proportion="50" type="5" content="301|6|1" count="1"/>
+			<element proportion="50" type="5" content="302|6|1" count="1"/>
+			<element proportion="50" type="5" content="303|6|1" count="1"/>
+			<element proportion="50" type="5" content="304|6|1" count="1"/>
+			<element proportion="50" type="5" content="305|6|1" count="1"/>
+			<element proportion="50" type="5" content="306|6|1" count="1"/>
+			<element proportion="50" type="5" content="307|6|1" count="1"/>
+			<element proportion="50" type="5" content="308|6|1" count="1"/>
+			<element proportion="50" type="5" content="309|6|1" count="1"/>
+			<element proportion="50" type="5" content="310|6|1" count="1"/>
+		</Obtain>
+	</PropLotteryDraw>
+	<PropLotteryDraw id="2" cost_coin="0" cost_gold_ingot="0" lucky_number="100000" lucky_id="102">
+		<Cost>
+			<Prop id="2101" count="100" price="2"/>
+		</Cost>
+		<Obtain>
+			<element proportion="1000" type="5" content="353|4|1" count="1"/>
+			<element proportion="250" type="5" content="354|5|1" count="1"/>
+			<element proportion="50" type="5" content="355|6|1" count="1"/>
+			<element proportion="0" type="5" content="301|6|1" count="1"/>
+			<element proportion="0" type="5" content="302|6|1" count="1"/>
+			<element proportion="0" type="5" content="303|6|1" count="1"/>
+			<element proportion="0" type="5" content="304|6|1" count="1"/>
+			<element proportion="100" type="5" content="311|5|1" count="1"/>
+			<element proportion="100" type="5" content="312|5|1" count="1"/>
+			<element proportion="100" type="5" content="313|5|1" count="1"/>
+			<element proportion="100" type="5" content="314|5|1" count="1"/>
+			<element proportion="100" type="5" content="315|5|1" count="1"/>
+			<element proportion="100" type="5" content="316|5|1" count="1"/>
+			<element proportion="100" type="5" content="317|5|1" count="1"/>
+			<element proportion="100" type="5" content="318|5|1" count="1"/>
+			<element proportion="100" type="5" content="319|5|1" count="1"/>
+			<element proportion="100" type="5" content="320|5|1" count="1"/>
+			<element proportion="0" type="5" content="305|6|1" count="1"/>
+			<element proportion="0" type="5" content="306|6|1" count="1"/>
+			<element proportion="0" type="5" content="307|6|1" count="1"/>
+			<element proportion="0" type="5" content="308|6|1" count="1"/>
+			<element proportion="0" type="5" content="309|6|1" count="1"/>
+			<element proportion="0" type="5" content="310|6|1" count="1"/>
+			<element proportion="1000" type="1" content="5000000" count="1"/>
+			<element proportion="2000" type="1" content="4000000" count="1"/>
+			<element proportion="1000" type="1" content="3000000" count="1"/>
+			<element proportion="100" type="4" content="2311" count="1"/>
+			<element proportion="300" type="4" content="2302" count="1"/>
+			<element proportion="250" type="5" content="354|5|1" count="1"/>
+			<element proportion="50" type="5" content="355|6|1" count="1"/>
+			<element proportion="25" type="5" content="301|6|1" count="1"/>
+			<element proportion="25" type="5" content="302|6|1" count="1"/>
+			<element proportion="25" type="5" content="303|6|1" count="1"/>
+			<element proportion="25" type="5" content="304|6|1" count="1"/>
+			<element proportion="25" type="5" content="305|6|1" count="1"/>
+			<element proportion="25" type="5" content="306|6|1" count="1"/>
+			<element proportion="25" type="5" content="307|6|1" count="1"/>
+			<element proportion="25" type="5" content="308|6|1" count="1"/>
+			<element proportion="25" type="5" content="309|6|1" count="1"/>
+			<element proportion="25" type="5" content="310|6|1" count="1"/>
+		</Obtain>
+	</PropLotteryDraw>
+	<PropLotteryDraw id="1" cost_coin="0" cost_gold_ingot="0" lucky_number="10" lucky_id="101">
+		<Cost>
+			<Prop id="2101" count="10" price="2"/>
+		</Cost>
+		<Obtain>
+			<element proportion="100" type="5" content="351|2|1" count="1"/>
+			<element proportion="100" type="5" content="352|3|1" count="1"/>
+			<element proportion="5" type="5" content="353|4|1" count="1"/>
+			<element proportion="100" type="1" content="700000" count="1"/>
+			<element proportion="100" type="1" content="500000" count="1"/>
+			<element proportion="100" type="1" content="300000" count="1"/>
+			<element proportion="50" type="4" content="2301" count="1"/>
+		</Obtain>
+	</PropLotteryDraw>
+	<PropLotteryDraw id="101" cost_coin="0" cost_gold_ingot="0" lucky_number="10" lucky_id="101">
+		<Cost>
+			<Prop id="2101" count="10" price="2"/>
+		</Cost>
+		<Obtain>
+			<element proportion="50" type="5" content="311|5|1" count="1"/>
+			<element proportion="50" type="5" content="312|5|1" count="1"/>
+			<element proportion="50" type="5" content="313|5|1" count="1"/>
+			<element proportion="50" type="5" content="314|5|1" count="1"/>
+			<element proportion="50" type="5" content="315|5|1" count="1"/>
+			<element proportion="50" type="5" content="316|5|1" count="1"/>
+			<element proportion="50" type="5" content="317|5|1" count="1"/>
+			<element proportion="50" type="5" content="318|5|1" count="1"/>
+			<element proportion="50" type="5" content="319|5|1" count="1"/>
+			<element proportion="50" type="5" content="320|5|1" count="1"/>
+			<element proportion="50" type="5" content="353|4|1" count="1"/>
+			<element proportion="5" type="5" content="354|5|1" count="1"/>
+			<element proportion="5" type="4" content="2302" count="1"/>
+			<element proportion="1" type="4" content="2303" count="1"/>
+		</Obtain>
+	</PropLotteryDraw>
+	<!--
+	DivinationLotteryDraw : 公瑾卜卦
+		prop_id			: 抽奖消耗道具ID
+		base_prop_count	: 消耗道具数量
+		ext_prop_count	: 押注消耗道具数量
+		prop_price		: 道具价格
+	DivinationType	: 
+		type	: 
+			id	: 唯一标识
+			prop_times		: 需要的消耗的道具的次数
+			base_award	 	: 基本奖励的次数
+			lucky_add	 	: 幸运数字增加数
+			lucky_number 	: 幸运数字（0表示每次都是幸运数字）
+			special_award	: 出现幸运数字时特殊奖励数
+	ShowGoods: 展示的物品ID
+		element：
+			goods_id	: 物品ID
+			type		: 类型：1：金币；4：道具； 8：战功  11：战魂碎片 12：神符
+			content		: 
+			max_count	: 最大押注数量
+	SpecialAward	: （同一次抽奖不会出现同样的特殊奖励）
+		award	 : 
+			award_id	: 唯一标识
+			type		: 类型：1：金币；4：道具； 5：装备； 8：战功  11：战魂碎片 12：神符
+			content		: 
+			proportion	: 概率比例
+    Obtain  :
+		element			:
+			award_id	: 唯一标识
+			proportion	: 概率比例
+			goods_id	: 物品ID
+			multiple	: 倍数
+  -->
+	<DivinationLotteryDraw begin_time="2013-10-13 00:00:00" end_time="2013-10-23 00:00:00" prop_id="2107" base_prop_count="10" ext_prop_count="5" prop_price="2">
+		<DivinationType>
+			<type id="1" prop_times="1" base_award="1" lucky_add="1" lucky_number="20" special_award="1"/>
+			<type id="2" prop_times="9" base_award="10" lucky_add="0" lucky_number="0" special_award="1"/>
+			<type id="3" prop_times="40" base_award="50" lucky_add="0" lucky_number="0" special_award="4"/>
+		</DivinationType>
+		<ShowGoods>
+			<element goods_id="1" type="4" content="9151|1" max_count="10"/>
+			<element goods_id="2" type="4" content="9133|1" max_count="10"/>
+			<element goods_id="3" type="4" content="9173|1" max_count="10"/>
+			<element goods_id="4" type="4" content="9174|1" max_count="10"/>
+			<element goods_id="5" type="4" content="9175|1" max_count="10"/>
+			<element goods_id="6" type="4" content="9176|1" max_count="10"/>
+			<element goods_id="7" type="4" content="9115|1" max_count="10"/>
+			<element goods_id="8" type="4" content="9108|1" max_count="10"/>
+		</ShowGoods>
+		<SpecialAward>
+			<award award_id="1" type="4" content="9123|1" proportion="50"/>
+			<award award_id="2" type="4" content="2311|1" proportion="50"/>
+			<award award_id="3" type="4" content="9177|1" proportion="100"/>
+			<award award_id="4" type="4" content="9007|1" proportion="100"/>
+		</SpecialAward>
+		<Obtain>
+			<element award_id="5" proportion="50" goods_id="1" multiple="1"/>
+			<element award_id="6" proportion="20" goods_id="2" multiple="3"/>
+			<element award_id="7" proportion="100" goods_id="3" multiple="1"/>
+			<element award_id="8" proportion="10" goods_id="4" multiple="3"/>
+			<element award_id="9" proportion="100" goods_id="5" multiple="1"/>
+			<element award_id="10" proportion="80" goods_id="6" multiple="3"/>
+			<element award_id="11" proportion="200" goods_id="7" multiple="1"/>
+			<element award_id="12" proportion="40" goods_id="8" multiple="3"/>
+			<element award_id="13" proportion="15" goods_id="1" multiple="3"/>
+			<element award_id="14" proportion="100" goods_id="2" multiple="1"/>
+			<element award_id="15" proportion="20" goods_id="3" multiple="3"/>
+			<element award_id="16" proportion="50" goods_id="4" multiple="1"/>
+			<element award_id="17" proportion="40" goods_id="5" multiple="3"/>
+			<element award_id="18" proportion="200" goods_id="6" multiple="1"/>
+			<element award_id="19" proportion="80" goods_id="7" multiple="3"/>
+			<element award_id="20" proportion="100" goods_id="8" multiple="1"/>
+		</Obtain>
+	</DivinationLotteryDraw>
+	<!--
+	LoveLotteryDraw : 爱心乐透
+		begin_time		: 活动开始时间
+		end_time		: 活动结束时将
+		prop_id 		: 抽奖消耗的道具ID
+		prop_count		: 抽奖消耗的道具数量
+		prop_price		: 道具的价格
+		person_number	: 个人变量
+		server_number	: 服务器变量
+		add_gold_ingot	: 每次元宝抽奖奖池增加的元宝
+		initial_bonus	: 奖池初始奖金
+		
+		Obtain : 获得的物品
+			proportion : 概率
+			type	   : 物品类型：4：道具； 5：装备；11：战魂碎片 12：神符
+			content	   :  物品内容： 
+                    物品类型 4：道具ID|道具个数
+                    物品类型 5：道具ID|品质类别|品质ID|道具等级
+                    物品类型 11：战魂碎片数量
+					物品类型 12：神符数量
+					
+		GoldIngot : 奖池大奖
+			Obtain :
+				type : 1:个人大奖，2: 服务器大奖
+					proportion	: 概率
+					rate		: 奖池大奖的比例
+	-->
+	<LoveLotteryDraw begin_time="2014-02-12 00:00:00" end_time="2014-02-21 00:00:00" prop_id="2355" prop_count="1" prop_price="20" person_number="500" server_number="20" add_gold_ingot="6" initial_bonus="20000">
+		<Obtain>
+			<element proportion="100" type="4" content="2354|1"/>
+			<element proportion="100" type="4" content="2311|1"/>
+			<element proportion="100" type="11" content="1"/>
+			<element proportion="100" type="12" content="5"/>
+			<element proportion="100" type="4" content="4001|5"/>
+			<element proportion="100" type="4" content="4002|5"/>
+			<element proportion="100" type="12" content="10"/>
+			<element proportion="100" type="4" content="4100|5"/>
+			<element proportion="100" type="4" content="2329|5"/>
+			<element proportion="1" type="4" content="2374|1"/>
+			<element proportion="100" type="4" content="2361|5"/>
+			<element proportion="50" type="4" content="1111|1"/>
+		</Obtain>
+		<GoldIngot>
+			<Obtain type="1">
+				<element proportion="1000" rate="0"/>
+				<element proportion="500" rate="100"/>
+				<element proportion="10" rate="500"/>
+				<element proportion="5" rate="5000"/>
+			</Obtain>
+			<Obtain type="2">
+				<element proportion="1" rate="0"/>
+				<element proportion="1" rate="100"/>
+				<element proportion="1" rate="500"/>
+				<element proportion="10000" rate="5000"/>
+			</Obtain>
+		</GoldIngot>
+	</LoveLotteryDraw>
+</LotteryDraws>
